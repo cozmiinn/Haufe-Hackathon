@@ -28,6 +28,13 @@ function App() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" data={data}
         />
+        <table style={{width: 500}}>
+          <thead>
+            <tr>
+              
+            </tr>
+          </thead>
+        </table>
         <Marker position={[51.505, -0.10]}>
           <Popup>
             A pretty CSS3 popup. <br /> Easily customizable.
